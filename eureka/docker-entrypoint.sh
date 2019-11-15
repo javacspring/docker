@@ -1,3 +1,3 @@
 #!/bin/sh
 
-exec java -jar -Dserver.port=80 $@ /opt/application.jar
+exec java -jar -Dserver.port=80 $@ application.jar
